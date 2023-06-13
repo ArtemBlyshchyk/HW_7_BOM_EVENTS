@@ -86,17 +86,17 @@ TASK #5=========================================================================
 https://user-images.githubusercontent.com/9075641/228462490-a2ec423a-44e3-40f5-9c0a-7e9d207f2822.png
 */
 // SOLUTION
-const button = document.getElementById("notificationBtn");
+// const button = document.getElementById("notificationBtn");
 
-button.addEventListener("click", function () {
-  document.getElementById("notificationText").innerHTML += "I was pressed!<br>";
-});
+// button.addEventListener("click", function () {
+//   document.getElementById("notificationText").innerHTML += "I was pressed!<br>";
+// });
 
-button.addEventListener("mouseover", function () {
-  document.getElementById("notificationText").innerHTML += "Mouse on me!<br>";
-});
+// button.addEventListener("mouseover", function () {
+//   document.getElementById("notificationText").innerHTML += "Mouse on me!<br>";
+// });
 
-button.addEventListener("mouseout", function () {
-  document.getElementById("notificationText").innerHTML +=
-    "Mouse is not on me!<br>";
-});
+// button.addEventListener("mouseout", function () {
+//   document.getElementById("notificationText").innerHTML +=
+//     "Mouse is not on me!<br>";
+// });
